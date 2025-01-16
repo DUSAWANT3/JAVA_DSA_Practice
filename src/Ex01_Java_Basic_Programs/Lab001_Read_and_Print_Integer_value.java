@@ -2,7 +2,7 @@ package Ex01_Java_Basic_Programs;
 
 import java.util.Scanner;
 
-public class Read_and_Print_Integer_value {
+public class Lab001_Read_and_Print_Integer_value {
     public static void main(String[] args) {
 
         // Declare the variables
