@@ -44,11 +44,10 @@ public class Lab002_read_input_from_console_4_methods {
         System.out.println("*********************************************************");
 
  // 3- Using Console Class
-        System.out.println("enter the name:  ");
+        System.out.println("enter the name1:  ");
         // Using Console to input data from user
-        String name = System.console().readLine();
+        String name1 = System.console().readLine();
 
-        System.out.println("You entered string " + name);
+        System.out.println("You entered string " + name1);
     }
-
 }
