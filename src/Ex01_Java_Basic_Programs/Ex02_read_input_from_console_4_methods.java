@@ -3,12 +3,11 @@ package Ex01_Java_Basic_Programs;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 //In Java, there are four different ways to read input
 // from the user in the command line environment(console).
 
-public class Lab002_read_input_from_console_4_methods {
+public class Ex02_read_input_from_console_4_methods {
 
     public static void main(String[] args)
             throws IOException{
