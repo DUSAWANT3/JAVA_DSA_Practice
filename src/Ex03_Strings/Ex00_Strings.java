@@ -17,5 +17,8 @@ public class Ex00_Strings {// Java Program to demonstrate String
         System.out.println(str.toUpperCase());//HELLO
 
         System.out.println(str.indexOf("o")); // 4
+        System.out.println(str.contains("l")); //True
+        System.out.println(str.charAt(4)); //o
+        System.out.println(str.replace("l","k")); //Hekko
     }
 }

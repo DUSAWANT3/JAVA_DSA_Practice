@@ -25,7 +25,7 @@ public class Ex01_Reverse_an_Array {
             System.out.print(num + " ");
         }
 
-        //2. Reverse Using a New Array (Not In-Place)
+ //2. Reverse Using a New Array (Not In-Place)
         int[] original = {1, 2, 3, 4, 5};
         int[] reversed = new int[original.length];
         for (int i = 0; i < original.length; i++) {
@@ -35,7 +35,7 @@ public class Ex01_Reverse_an_Array {
             System.out.print(num + " ");
         }
 
-        //3. Reverse Using Collections (For Object Arrays like Integer[])
+//3. Reverse Using Collections (For Object Arrays like Integer[])
         Integer[] arr1 = {100, 200, 300, 400};
         // Reverse using Collections
         Collections.reverse(Arrays.asList(arr1));
