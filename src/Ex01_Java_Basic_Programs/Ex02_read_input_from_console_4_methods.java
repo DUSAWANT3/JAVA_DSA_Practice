@@ -9,8 +9,7 @@ import java.io.InputStreamReader;
 
 public class Ex02_read_input_from_console_4_methods {
 
-    public static void main(String[] args)
-            throws IOException{
+    public static void main(String[] args) throws IOException{
 //1-Using Scanner Class
         // Using Scanner for Getting Input from User
       /*  Scanner in = new Scanner(System.in);

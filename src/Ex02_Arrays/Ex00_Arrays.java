@@ -10,7 +10,6 @@ public class Ex00_Arrays {
     //Can store primitive types (like int, char, double) or objects (like String, Integer, etc.).
     // Getting the length of the array --> int length = numbers.length;
 
-
     //Syntax
     public static void main(String[] args) {
 

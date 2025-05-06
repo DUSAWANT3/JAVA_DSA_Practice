@@ -6,7 +6,7 @@ import java.util.Collections;
 public class Ex01_Reverse_an_Array {
     public static <List> void main(String[] args) {
 
-//1. Reverse Using a For Loop (In-Place Swap)
+//1. Reverse Using a while Loop (In-Place Swap)
         int[] arr = {1, 2, 3, 4, 5};
 
         int start = 0;
@@ -40,6 +40,5 @@ public class Ex01_Reverse_an_Array {
         // Reverse using Collections
         Collections.reverse(Arrays.asList(arr1));
         System.out.println(Arrays.toString(arr1)); //[5, 4, 3, 2, 1]
-
     }
 }
