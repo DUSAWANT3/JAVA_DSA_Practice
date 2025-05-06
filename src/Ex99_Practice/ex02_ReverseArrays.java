@@ -1,5 +1,7 @@
 package Ex99_Practice;
 
+import java.util.Arrays;
+
 public class ex02_ReverseArrays {
     public static void main(String[] args) {
         //Reverse an array
@@ -20,6 +22,24 @@ public class ex02_ReverseArrays {
         for (int i =0; i < arr.length; i++){
             System.out.print(arr[i] + " ");
         }
+
+  //find max element in an array
+        int[] arr1 = {25, 78, 12, 89, 34, 99, 1};
+        int max = arr1[0];  //assume max no
+
+        for (int i =0 ; i < arr1.length;i++){
+            if(arr1[i] > max){
+                max = arr1[i];
+            }
+        }
+        System.out.println("Max no is = "+ max);
+
+
+       int max1 = Arrays.stream(arr1).max().getAsInt();
+        System.out.println("Max no is = "+ max1);
+
+
+
     }
 }
 
