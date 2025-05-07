@@ -13,7 +13,7 @@ public class Ex04_Grade_Calculator {
         System.out.print("Enter the number 1 to 100 any =  ");
         int score = sc.nextInt();
 
-       char grade = 0;
+        char grade = 0;
         // Validate input and determine grade
         if (score < 0 || score > 100) {
             System.out.println("Invalid score. Please enter a number between 0 and 100.");
