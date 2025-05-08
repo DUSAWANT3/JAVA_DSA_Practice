@@ -1,5 +1,7 @@
 package Ex99_Practice;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Ex03_Check_Palindrome_String {
@@ -29,5 +31,5 @@ public class Ex03_Check_Palindrome_String {
             System.out.println(str + " Palindrome string");
         }else
             System.out.println(str + " not Palindrome string");
-    }
-}
+
+}}
