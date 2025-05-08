@@ -10,9 +10,21 @@ public class Ex06_Triangle_Classifier {
         // isosceles (exactly two sides are equal), or scalene (no sides are equal).
         // Use an if-else statement to classify the triangle.
 
-        int side1 = 5; // Replace with the lengths of your triangle's sides
-        int side2 = 4;
-        int side3 = 4;
+        Scanner sc = new Scanner(System.in);
+
+        // Get input from the user
+        System.out.print("Enter side 1: ");
+        int side1 = sc.nextInt();
+
+        System.out.print("Enter side 2: ");
+        int side2 = sc.nextInt();
+
+        System.out.print("Enter side 3: ");
+        int side3 = sc.nextInt();
+
+       // int side1 = 5; // Replace with the lengths of your triangle's sides
+       // int side2 = 4;
+       // int side3 = 4;
 
         if (side1 == side2 && side2 == side3) {
             System.out.println("Equilateral triangle");
@@ -21,5 +33,20 @@ public class Ex06_Triangle_Classifier {
         } else {
             System.out.println("Scalene triangle");
         }
+
+
+        //Using for loop get the input  from User
+        //Scanner sc = new Scanner(System.in);
+        //
+        //        int[] sides = new int[3];  // Array to hold the 3 sides
+        //
+        //        // Use a loop to take 3 inputs
+        //        for (int i = 0; i < 3; i++) {
+        //            System.out.print("Enter side " + (i + 1) + ": ");
+        //            sides[i] = sc.nextInt();
+        //        }
+        //        int side1 = sides[0];
+        //        int side2 = sides[1];
+        //        int side3 = sides[2];
     }
 }
