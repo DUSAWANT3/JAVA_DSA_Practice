@@ -20,5 +20,4 @@ public class Ex09_Print_01Triangle_Pattern {
             System.out.println();
         }
     }
-
 }
