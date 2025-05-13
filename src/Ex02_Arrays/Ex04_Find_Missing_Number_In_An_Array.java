@@ -4,7 +4,7 @@ public class Ex04_Find_Missing_Number_In_An_Array {
     public static void main(String[] args) {
         //Ex04_Find_Missing_Number_In_An_Array
         //natural numbers = n*(n+1)/2
-         int n = 6;
+         int n = 6; //length of int
         int[] arr ={1, 2, 4, 5, 6};
 
         int totalSum = n * (n + 1) / 2;
