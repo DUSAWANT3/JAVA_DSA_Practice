@@ -12,6 +12,7 @@ public class Ex04_Reverse_a_tring {
             System.out.print(str.charAt(i));
         }
         System.out.println();//new line
+
 //✅ 2. Reverse a String Using Built-in Java Methods
        String reversed = new StringBuilder(str).reverse().toString();
         System.out.println(reversed);
