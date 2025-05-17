@@ -20,5 +20,12 @@ public class Ex00_Strings {// Java Program to demonstrate String
         System.out.println(str.contains("l")); //True
         System.out.println(str.charAt(4)); //o
         System.out.println(str.replace("l","k")); //Hekko
+
+        //✅Ternary Operator (if else replace)
+        //condition ? value_if_true : value_if_false;
+        int num = 5;
+        String result = (num % 2 == 0) ? "Even" : "Odd";
+        System.out.println(result); //odd
+
     }
 }
