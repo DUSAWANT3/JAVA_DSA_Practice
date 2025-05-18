@@ -31,9 +31,21 @@ public class Ex10_1805 {
             for(int j=i+1; j<=str3.length(); j++){
                 System.out.println(str3.substring(i, j));
             }
-
         }
 
+        //check rotation of string
+        String s1 = "waterbottle";
+        String s2 = "erbottlewat";
+
+        boolean isrotation = true;
+        //check length
+        if(s1.length() != s2.length()){
+            isrotation =false;
+        }else {
+            String concadanation = s1 + s1 ;
+           isrotation = concadanation.contains(s2);
+        }
+        System.out.println(isrotation);
     }
 }
 
