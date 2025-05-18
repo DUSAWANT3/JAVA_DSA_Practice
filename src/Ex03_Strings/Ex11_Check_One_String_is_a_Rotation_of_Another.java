@@ -18,6 +18,5 @@ public class Ex11_Check_One_String_is_a_Rotation_of_Another {
             isRotation = concatenated.contains(s2);
         }
         System.out.println(isRotation);  // Output: true
-
     }
 }
