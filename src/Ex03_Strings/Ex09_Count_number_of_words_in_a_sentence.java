@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 public class Ex09_Count_number_of_words_in_a_sentence {
     public static void main(String[] args) {
         //✅ Ex09_Count number of words in a sentence
-//✅Basic
+//✅Basic -not accurate method
         String str = "I am QA Tester";
         String[] count = str.split(" ");
         System.out.println(count.length);//4
