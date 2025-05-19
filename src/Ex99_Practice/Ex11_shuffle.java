@@ -19,7 +19,6 @@ public class Ex11_shuffle {
                     i++;
                 } else if(j<s2.length() && s2.charAt(j) == c) {
                     j++;
-
                 }else {
                     isShuffle = false;
                     break;
