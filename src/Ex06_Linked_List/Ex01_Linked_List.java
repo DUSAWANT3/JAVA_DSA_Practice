@@ -19,7 +19,5 @@ public class Ex01_Linked_List {
 //Doubly Linked List	Each node has data + a pointer to next & previous nodes
 //Circular Linked List	The last node points back to the head (can be singly or doubly circular)
 
-
-
     }
 }
