@@ -28,8 +28,5 @@ public class Ex02_java_8 {
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
         System.out.println(upperNames); // Output: [ALICE, BOB]
-
-
-
     }
 }
