@@ -19,6 +19,7 @@ public class Ex01_Reverse_an_Array {
             start++;
             end--;
         }
+
         // Print reversed array
         for (int num : arr) {
             System.out.print(num + " ");
