@@ -25,8 +25,7 @@ public class Ex02_read_input_from_console_4_methods {
 
         System.out.println("*********************************************************");
 
-  // 2-Using Buffered Reader Class
-  //throws IOException
+  // 2-Using Buffered Reader Class //throws IOException
         // Enter data using BufferReader
         System.out.println("enter the name:  ");
 

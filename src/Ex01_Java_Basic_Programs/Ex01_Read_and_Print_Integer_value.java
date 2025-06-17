@@ -15,6 +15,7 @@ public class Ex01_Read_and_Print_Integer_value {
 
         // Read the next integer from the screen
         num = s.nextInt();
+        // Note: If the input is not an integer,it will throw an InputMismatchException
 
         // Display the integer
         System.out.println("Entered integer is: " + num);
