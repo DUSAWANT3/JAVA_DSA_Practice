@@ -24,5 +24,7 @@ public class Ex05_Leap_Year_Checker {
         } else {
             System.out.println(year + " is not a leap year.");
         }
+
+        sc.close();
     }
 }

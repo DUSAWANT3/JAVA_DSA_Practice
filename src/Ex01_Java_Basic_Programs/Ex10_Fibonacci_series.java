@@ -10,7 +10,7 @@ public class Ex10_Fibonacci_series {
         int nextNum;
 
        for(int i=0; i<=n; i++){
-           System.out.println(firstNum + ", ");
+           System.out.print(firstNum + ", ");
            nextNum = firstNum + secondNum;
 
            firstNum = secondNum;
