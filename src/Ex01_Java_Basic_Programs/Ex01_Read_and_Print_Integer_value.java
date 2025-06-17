@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Ex01_Read_and_Print_Integer_value {
     public static void main(String[] args) {
-
         // Declare the variables
         int num;
 
