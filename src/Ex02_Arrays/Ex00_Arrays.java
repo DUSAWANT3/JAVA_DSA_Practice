@@ -31,4 +31,4 @@ public class Ex00_Arrays {
             System.out.print(fruits[i] + " ");
     }
 }
-//
+
