@@ -19,3 +19,4 @@ public class Ex04_Find_Missing_Number_In_An_Array {
     }
 }
 
+// The formula n*(n+1)/2 calculates the sum of the first n natural numbers.
