@@ -18,5 +18,4 @@ public class Ex04_Find_Missing_Number_In_An_Array {
         //Missing number is: 3
     }
 }
-// Explanation:
-// 1. Calculate the expected sum of the first n natural numbers using the formula n*(n+1)/2.
+
