@@ -9,7 +9,7 @@ public class Ex01_Reverse_an_Array {
 //1. Reverse Using a while Loop (In-Place Swap)
         //In-place reversal of an array using a while loop
         int[] arr = {1, 2, 3, 4, 5};
-
+// Initialize the array to be reversed
         int start = 0;
         int end = arr.length - 1;
         while (start < end) { //less than operator (<)
@@ -20,6 +20,7 @@ public class Ex01_Reverse_an_Array {
             start++;
             end--;
         }
+        // The above code reverses the array in place, meaning it modifies the original array without using extra space.
 
         // Print reversed array
         for (int num : arr) {
