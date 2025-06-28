@@ -18,5 +18,5 @@ public class Ex04_Find_Missing_Number_In_An_Array {
         //Missing number is: 3
     }
 }
-
+//
 // The formula n*(n+1)/2 calculates the sum of the first n natural numbers.
