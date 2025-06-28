@@ -7,6 +7,7 @@ public class Ex01_Reverse_an_Array {
     public static <List> void main(String[] args) {
 
 //1. Reverse Using a while Loop (In-Place Swap)
+        //In-place reversal of an array using a while loop
         int[] arr = {1, 2, 3, 4, 5};
 
         int start = 0;
