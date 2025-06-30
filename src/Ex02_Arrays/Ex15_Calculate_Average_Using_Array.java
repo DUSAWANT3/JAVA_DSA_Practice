@@ -1,6 +1,7 @@
 package Ex02_Arrays;
 
 import java.sql.SQLOutput;
+import java.util.Arrays;
 
 public class Ex15_Calculate_Average_Using_Array {
 
@@ -14,5 +15,13 @@ public class Ex15_Calculate_Average_Using_Array {
 
         System.out.println("Sum: "+ sum); //150
         System.out.println("Average: "+ avg); //30.0
+
+ //Method 2 - using Java 8
+
+        double Average = Arrays.stream(arr)
+                .average()
+                .getAsDouble();
+        System.out.println("Average: " + Average);//30.0
+
     }
 }
