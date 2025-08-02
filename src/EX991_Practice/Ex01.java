@@ -7,6 +7,7 @@ public class Ex01 {
             .filter(Character::isLetter)   // Keep only alphabetic characters
             .count();                      // Count them
 
-        System.out.println("Total alphabetic characters: " + count);
+        //System.out.println("Total alphabetic characters: " + count);
+
 }
 
