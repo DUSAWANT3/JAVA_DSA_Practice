@@ -8,7 +8,7 @@ public class Ex01 {
             .count();                      // Count them
 
         //System.out.println("Total alphabetic characters: " + count);
-
-
 }
 
+
+//
