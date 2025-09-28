@@ -15,4 +15,5 @@ public class Ex07_Inverted_RightAngle_Numbers_Triangle {
             System.out.println();
         }
     }
+
 }
