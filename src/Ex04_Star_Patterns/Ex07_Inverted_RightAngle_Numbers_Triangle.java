@@ -1,19 +1,33 @@
 package Ex04_Star_Patterns;
 
-public class Ex07_Inverted_RightAngle_Numbers_Triangle {
-    //1 2 3 4 5
-    //1 2 3 4
-    //1 2 3
-    //1 2
-    //1
-    public static void main(String[] args) {
-        int n=5;
-        for(int i=1; i<=n; i++){
-           for(int j=1; j<=n-i+1; j++){
-               System.out.print(j+" ");
-            }
-            System.out.println();
-        }
-    }
+import java.util.Arrays;
+import java.util.List;
 
+public class Ex07_Inverted_RightAngle_Numbers_Triangle {
+
+    public static void main(String[] args) {
+
+        List<String> days = Arrays.asList("Sunday", "Monday", "Tuesday", "Wedenday", "Thursday", "Friday", "Saturday", "Nilesh");
+
+       for(String day : days){
+       if(day.startsWith("S") || day.startsWith("T"))
+
+           if(day.startsWith("S"))
+          System.out.println(day);
+       }
+
+
+      /*  for(String day : days) {
+
+            if(day.length()>3){
+                String modidiyday = day.charAt(0) + day.substring(3);
+
+                System.out.println(modidiyday);
+
+            } else {
+                System.out.println(day.charAt(0));
+            }
+ */
+     //   }
+    }
 }
