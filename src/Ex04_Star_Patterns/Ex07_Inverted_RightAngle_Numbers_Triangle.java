@@ -2,6 +2,7 @@ package Ex04_Star_Patterns;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 
 public class Ex07_Inverted_RightAngle_Numbers_Triangle {
 
@@ -11,9 +12,8 @@ public class Ex07_Inverted_RightAngle_Numbers_Triangle {
 
        for(String day : days){
        if(day.startsWith("S") || day.startsWith("T"))
-
-           if(day.startsWith("S"))
           System.out.println(day);
+
        }
 
 
