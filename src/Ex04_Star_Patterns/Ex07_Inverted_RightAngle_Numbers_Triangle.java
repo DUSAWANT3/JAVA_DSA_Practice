@@ -8,7 +8,7 @@ public class Ex07_Inverted_RightAngle_Numbers_Triangle {
 
     public static void main(String[] args) {
 
-        List<String> days = Arrays.asList("Sunday", "Monday", "Tuesday", "Wedenday", "Thursday", "Friday", "Saturday", "Nilesh");
+        List<String> days = Arrays.asList("Sunday", "Monday", "Tuesday", "Wedenday", "Thursday", "Friday", "Saturday");
 
        for(String day : days){
        if(day.startsWith("S") || day.startsWith("T"))
