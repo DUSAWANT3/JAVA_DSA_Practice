@@ -2,7 +2,7 @@ package Ex03_Strings;
 
 import java.util.stream.Collectors;
 
-public class Ex04_Reverse_a_tring {
+public class Ex04_Reverse_a_String {
     public static void main(String[] args) {
         //✅ Reverse a string (with and without using built-in methods)
 
