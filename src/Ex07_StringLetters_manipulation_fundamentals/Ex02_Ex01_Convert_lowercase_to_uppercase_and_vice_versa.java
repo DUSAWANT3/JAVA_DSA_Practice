@@ -25,5 +25,24 @@ public class Ex02_Ex01_Convert_lowercase_to_uppercase_and_vice_versa {
         }
         System.out.println("Input   -->  " + input);
         System.out.println("Result -- >  " + result);
+
+    // **********************************************************************8
+
+        String output = "";
+
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
+
+            if (Character.isUpperCase(ch)) {
+                output += Character.toLowerCase(ch);
+            } else if (Character.isLowerCase(ch)) {
+                output += Character.toUpperCase(ch);
+            } else {
+                output += ch; // keep non-alphabetic characters unchanged
+            }
+        }
+
+        System.out.println(output);
     }
-}
+    }
+
